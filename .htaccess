@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteBase /
+
+
+RewriteRule ^css/(.*\.css) /combine.php?type=css&files=$1
+RewriteRule ^js/(.*\.js) /combine.php?type=javascript&files=$1
+
+# END Rewrite rules
+
