@@ -3,8 +3,19 @@ YaboJsCss  is a simple combination of 2 systems allowing to combine, pack and co
 
 USAGE:
 edit combine.php and .htaccess to define the directory where your files are stored 
+place combine.php and .htaccess at the root of your website, add the lib directory with the class.JavaScriptPacker.php
+
+ISSUES:
+- be carefull to combine correctly the .htaccess, if you are using a CMS he is most likely using one, place the redirects right after "RewriteEngine On"
+- the packer can break some jQuery code, when files start with "(function($) {"   in that case, add a semicolumn before => ";(function($) {"
+- sometimes it just won't work, so either keep the original "combine" (just comment line 58 of comment.php) or move the problematc file in another directory that /js/ and include as you would normally do
+
+ABOUT COMMENT FRAMEWORK
+you don't need to compress jquery, prototype, mootols... they can be loaded directly from google
+http://code.google.com/intl/fr/apis/ajaxlibs/documentation/index.html
 
 
+HTML
 then in yout HTML code replace your JS links such as
 
 http://www.yabo-concept.ch/js/jquery.js

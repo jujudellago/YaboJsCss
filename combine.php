@@ -45,7 +45,7 @@
 	$cachedir = dirname(__FILE__) . '/tmp/cache';
 	// your css folder
 	$cssdir   = dirname(__FILE__) . '/css';
-	// your javascrit folder
+	// your javascripts folder
 	$jsdir    = dirname(__FILE__) . '/js';
 	$minimize=false;
 	// Determine the directory and type we should use
