@@ -1,0 +1,69 @@
+YaboJsCss  is a simple combination of 2 systems allowing to combine, pack and compress javascripts and CSS files
+
+
+USAGE:
+edit combine.php and .htaccess to define the directory where your files are stored 
+
+
+then in yout HTML code replace your JS links such as
+
+http://www.yabo-concept.ch/js/jquery.js
+http://www.yabo-concept.ch/js/tipsy.js
+http://www.yabo-concept.ch/js/accordion.js
+http://www.yabo-concept.ch/js/custom.js
+http://www.yabo-concept.ch/js/init.js
+
+by
+http://www.yabo-concept.ch/js/jquery.js,tipsy.js,accordion.js,custom.js,init.js
+
+about the same for CSS
+
+you will find more instructions here
+http://rakaz.nl/2006/12/make-your-pages-load-faster-by-combining-and-compressing-javascript-and-css-files.html
+
+
+All I did was adding the php Packer to the project to mignify and obfuscate the javascripts, should you need such feature.
+the CSS are not mignified, only GZ compressed
+
+29.01.2010 
+Julien Ramel
+
+
+
+************************************************************************
+ * CSS and Javascript Combinator 0.5
+ * Copyright 2006 by Niels Leenheer
+ * http://rakaz.nl/2006/12/make-your-pages-load-faster-by-combining-and-compressing-javascript-and-css-files.html
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+Compressor combined: 
+http://joliclic.free.fr/php/javascript-packer/en/
+License: http://creativecommons.org/licenses/LGPL/2.1/
+
+
+Put together by Yabo-concept
+Copyright 2010 by Julien Ramel
+License: http://creativecommons.org/licenses/LGPL/2.1/
+
+
+
